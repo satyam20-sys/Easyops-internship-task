@@ -1,5 +1,5 @@
 # Easyops-internship-task
-Steps for running the code <br>
+<bold><underline>Steps for running the code</bold></underline> <br><br>
 1.In the terminal window, type npm init and press Enter.<br>
 2.Install the required dependencies by typing the following command in the terminal window and pressing Enter:
 npm install react react-dom<br>
