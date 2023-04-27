@@ -1,0 +1,147 @@
+body {
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  color: #333;
+  box-shadow: none;
+}
+
+.form-group input:focus {
+  outline: none;
+  box-shadow: 0 0 2px #764ba2;
+}
+
+.input-group-text {
+  background-color: #764ba2;
+  color: #fff;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-group input:first-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #764ba2;
+  color: #fff;
+  cursor: pointer; /* added cursor to indicate that the column is sortable */
+}
+
+.table th:hover {
+  background-color: #5a2f91; /* added hover effect for sortable columns */
+}
+
+.table td {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.table td:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.table td:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.table .delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.table .delete-btn:hover {
+  border: 2px solid #ff0000; /* added border and changed background color on hover for delete button */
+  background-color: #f7f7f7;
+}
+
+.btn {
+  background-color: #764ba2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5a2f91;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.search-bar {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.search-bar label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.search-bar input {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  color: #333;
+  box-shadow: none;
+}
+
+.search-bar input:focus {
+  outline: none;
+  box-shadow: 0 0 2px #764ba2;
+}
